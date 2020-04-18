@@ -1,6 +1,7 @@
 {
   "extends": "tslint:recommended",
   "rules": {
+  "rules": {
     "align": {
       "options": [
         "parameters",
@@ -113,12 +114,9 @@
       ]
     },
     "variable-name": {
-      "options": [
-        "ban-keywords",
-        "check-format",
-        "allow-pascal-case"
-      ]
-    },
+
+    }
+  },
     "whitespace": {
       "options": [
         "check-branch",
